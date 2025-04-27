@@ -1,0 +1,20 @@
+.signOutButton:hover {
+    cursor: pointer;
+}
+
+.navbarContainer {
+    padding: 0 !important;
+}
+
+.navContainer {
+    display: flex !important; 
+    flex-direction: column !important;
+    width: 100%;
+}
+
+.background {
+    background-image: url('../assets/home-background.jpg');
+    background-size: 100%;  /* Ensure the image retains its original size */
+  background-repeat: repeat-y;  /* This repeats the image vertically */
+  
+  }
