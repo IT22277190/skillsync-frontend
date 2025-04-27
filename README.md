@@ -1,2 +1,1 @@
 # skillsync-frontend
-///sudeepa test 
