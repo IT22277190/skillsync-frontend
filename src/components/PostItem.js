@@ -168,10 +168,20 @@ function PostItem(props) {
         <div className="mx-3">
           <p>{props.content}</p>
           {props.image && (
-            <div className="d-flex justify-content-center align-items-center mb-3">
-              <img src={props.image} alt="" />
-            </div>
-          )}
+  <div className="d-flex justify-content-center align-items-center mb-3">
+    <img src={props.image} alt="Post" style={{ maxWidth: "100%", height: "auto" }} />
+  </div>
+)}
+
+{props.video && (
+  <div className="d-flex justify-content-center align-items-center mb-3">
+    <video controls style={{ maxWidth: "100%", height: "auto" }}>
+      <source src={props.video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+)}
+
         </div>
 
         {/* Sub-functions of a post */}
@@ -273,7 +283,9 @@ function PostItem(props) {
           show={showEditCommentModal}
           onClose={handleCloseEditCommentModal}
           postId={props.postId}
+          onSubmit={handleEditCommentSubmit} // Add this prop to connect logic
           commentId={editCommentId}
+          defaultContent={editCommentContent}
         />
       )}
       </Row>
