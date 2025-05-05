@@ -18,7 +18,7 @@ import {RiLoginBoxLine} from "react-icons/ri";
 
 import styles from "./styles/HomePage.module.css";
 
-import psnLogo from "./assets/psn-logo-large.png";
+import psnLogo from "./assets/psn-logo-large.jpg";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -34,11 +34,11 @@ function HomePage() {
       <Row className={styles.container}>
         <Col className={`${styles.colContainerLeft} ${styles.leftBackground}`}>
           <div>           
-            <Row>
+            {/* <Row>
               <h3 className="my-3">
-              <img src={psnLogo} alt="PSN logo" width={120} className="mb-3" />
+              <img src={logo} alt="PSN logo" width={120} className="mb-3" />
               </h3>
-            </Row>
+            </Row> */}
           </div>
         </Col>
         <Col className={styles.colContainerRight}>
@@ -48,7 +48,7 @@ function HomePage() {
             </Row>
             <br />
             <Row>
-              <h3 className="text-secondary mb-3">Join Duhun Social Network Today</h3>
+              <h3 className="text-secondary mb-3">Join With Social Network</h3>
             </Row>{" "}
             <br />
             <Row>
