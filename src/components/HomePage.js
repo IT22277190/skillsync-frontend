@@ -48,7 +48,7 @@ function HomePage() {
             </Row>
             <br />
             <Row>
-              <h3 className="text-secondary mb-3">Join Duhun Social Network Today</h3>
+              <h3 className="text-secondary mb-3">Join Social Network Today</h3>
             </Row>{" "}
             <br />
             <Row>
