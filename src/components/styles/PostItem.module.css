@@ -1,31 +1,44 @@
-.loveButton {
-
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.commentButton {
-
+.formContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.shareButton {
-
+@media only screen and (max-width: 575px) {
+    .formContainer {
+        width: 95%;
+    }
 }
 
-.sendCommentButton {
+.background {
+    background-image: url('../assets/home.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 
-}
 
-.loveButton:hover {
-    cursor: pointer;
-}
+.formContainer {
+    padding: 20px;
+    border-radius: 20px; 
+    backdrop-filter: blur(20px); 
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 500px;
+    margin: 20px auto; 
+  }
 
-.commentButton:hover {
-    cursor: pointer;
-}
-
-.shareButton:hover {
-    cursor: pointer;
-}
-
-.sendCommentButton:hover {
-    cursor: pointer;
-}
+  .customInput {
+    border-radius: 15px;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+  }
