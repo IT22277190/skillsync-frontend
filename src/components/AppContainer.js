@@ -13,7 +13,7 @@ import Profile from "./Profile";
 import MyProfile from "./MyProfile";
 import AllAccounts from "./AllAccounts";
 import UnauthorizedPage from "./UnauthorizedPage";
-import EditeProfile from "./EditeProfile";
+import EditProfile from "./EditeProfile";
 import EditPost from "./EditPost"; // Import your EditPost component
 import EditComment from "./EditComment"
 
@@ -31,7 +31,7 @@ function AppContainer() {
           <Route path="profile" element={<Profile />} />
           <Route path="myprofile" element={<MyProfile />} />
           <Route path="allaccounts" element={<AllAccounts />} />
-          <Route path="editeprofile" element={<EditeProfile />} />
+          <Route path="editeprofile" element={<EditProfile />} />
         </Route>
         
         <Route path="/editpost/:postId" element={<EditPost />} />
