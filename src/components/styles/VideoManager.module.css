@@ -1,0 +1,45 @@
+/* Styles for the VideoManager component
+
+.videoManagerContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.videoManagerContainer h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.videoManagerContainer input {
+  margin-bottom: 10px;
+}
+
+.videoManagerContainer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.videoManagerContainer button:hover {
+  background-color: #0056b3;
+}
+
+.videoManagerContainer .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.videoManagerContainer video {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+} */
