@@ -1,9 +1,13 @@
 import React from 'react';
 import AppContainer from './components/AppContainer';
+// import VideoManager from './components/VideoManager';
 
 function App() {
   return (
-    <AppContainer />
+    <div className="App">
+      <AppContainer />
+      {/* <VideoManager /> */}
+    </div>
   );
 }
 
