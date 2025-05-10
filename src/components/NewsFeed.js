@@ -4,6 +4,8 @@ import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import logo from "./assets/psn-logo-large.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserFriends } from '@fortawesome/free-solid-svg-icons';
+// import { RiFeedbackLine } from "react-icons/ri";
+
 
 import {
   RiNewspaperLine,
@@ -11,7 +13,8 @@ import {
   RiBaseStationLine,
   RiFolderUserLine,
   RiLogoutBoxLine,
-  RiAccountCircleLine 
+  RiAccountCircleLine,
+  RiFeedbackLine 
 } from "react-icons/ri";
 
 import styles from "./styles/NewsFeed.module.css";
@@ -116,6 +119,17 @@ function NewsFeed() {
                     </li>
                   </Link>
                 </Nav.Link>
+
+                <Nav.Link>
+                  <Link to="feedback" className="text-decoration-none">
+                    <li className="list-group-item fs-5 py-3 text-dark shadow">
+                      <span>
+                        <RiFeedbackLine /> Feedback
+                      </span>
+                    </li>
+                  </Link>
+                </Nav.Link>
+
                 <Nav.Link>
                 <li
                   className={`list-group-item fs-5 py-3 text-success shadow ${styles.signOutButton}`}
